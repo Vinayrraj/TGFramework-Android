@@ -3,7 +3,9 @@ package com.techgrains.dialog;
 import com.techgrains.model.dialog.TGProgressDialog;
 
 /**
- * Created by Vinay on 21/04/15.
+ * Interface for handling Progress Dialog.
+ *
+ * Created on 21/04/15.
  */
 public interface TGIProgressDialog {
 

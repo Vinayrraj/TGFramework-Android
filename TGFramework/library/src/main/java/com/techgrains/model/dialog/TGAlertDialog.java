@@ -4,7 +4,9 @@ import android.content.DialogInterface;
 import android.support.annotation.DrawableRes;
 
 /**
- * Created by CNS on 21/04/15.
+ * Class which holds the properties of Alert Dialog
+ *
+ * Created on 21/04/15.
  */
 public class TGAlertDialog {
 

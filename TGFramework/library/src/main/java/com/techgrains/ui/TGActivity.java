@@ -10,6 +10,14 @@ import com.techgrains.model.dialog.TGAlertDialog;
 import com.techgrains.model.dialog.TGProgressDialog;
 import com.techgrains.util.TGUtil;
 
+/**
+ * Base Activity, all activities to be extended by this activity class
+ * <p/>
+ * - Implements TGIAlertDialog
+ * - Implements TGIProgressDialog
+ * <p/>
+ * Created on 21/04/15.
+ */
 public abstract class TGActivity extends FragmentActivity implements TGIAlertDialog, TGIProgressDialog {
 
     private ProgressDialog mProgressDialog = null;
